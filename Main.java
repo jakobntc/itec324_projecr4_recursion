@@ -42,8 +42,8 @@ public class Main {
         int numIslands = landmasses(island2DArray);
         int numLakes = lakes(lake2DArray) - 1;
 
-        System.out.println("The number of landmasses was: " + numIslands);
-        System.out.println("The number of lakes was: " + numLakes);
+        System.out.println(numIslands);
+        System.out.println(numLakes);
     }
 
     /**
